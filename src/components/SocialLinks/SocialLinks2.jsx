@@ -23,6 +23,7 @@ const SocialLinks2 = ({ data, socials }) => {
 
 SocialLinks2.propTypes = {
   data: PropTypes.array,
+  socials: PropTypes.array,
 };
 
 export default SocialLinks2;

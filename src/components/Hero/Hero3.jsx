@@ -43,6 +43,7 @@ const Hero3 = ({ data, socialData, user }) => {
 Hero3.propTypes = {
   data: PropTypes.object,
   socialData: PropTypes.array,
+  user: PropTypes.object,
 };
 
 export default Hero3;

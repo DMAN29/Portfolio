@@ -52,6 +52,7 @@ const Hero2 = ({ data, socialData, user }) => {
 
 Hero2.propTypes = {
   data: PropTypes.object,
+  user: PropTypes.object,
   socialData: PropTypes.array,
 };
 
