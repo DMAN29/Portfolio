@@ -5,7 +5,7 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 const Skill = ({ data, user }) => {
   const { title, text, skills } = data;
   return (
-    <section className="st-dark-bg">
+    <section className="st-dark-bg ">
       <div className="st-height-b100 st-height-lg-b80"></div>
       <SectionHeading title="Skills" />
       <div className="container">

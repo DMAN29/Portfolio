@@ -23,7 +23,8 @@ const Iconbox = ({ data, service }) => {
                   <img src={element.image.url} alt="Icon" />
                 </div>
                 <h2 className="st-iconbox-title">{element.name}</h2>
-                <div className="st-iconbox-text">{element.desc}</div>
+                <div className="">{element.desc}</div>
+                <div className="st-iconbox-text">{element.charge}</div>
               </div>
               <div className="st-height-b30 st-height-lg-b30"></div>
             </div>

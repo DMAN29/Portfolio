@@ -51,7 +51,7 @@ const About = ({ data, user }) => {
                   </h2>
                   <h4 className="st-text-block-subtitle">{user.about.title}</h4>
                   <div className="st-text-block-text">
-                    <p>{user.about.subTitle}</p>
+                    <p>{user.about.description}</p>
                   </div>
                   <ul className="st-text-block-details st-mp0">
                     <li>
@@ -66,6 +66,9 @@ const About = ({ data, user }) => {
                     <li>
                       <span>Experience</span> :
                       <span>{user.about.exp_year} Years</span>
+                    </li>
+                    <li>
+                      <span>Freelance</span> :<span>Available</span>
                     </li>
                   </ul>
                   <div className="st-text-block-btn">

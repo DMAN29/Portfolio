@@ -2,6 +2,7 @@
 .st-iconbox.st-style1 {
   text-align: center;
   padding: 50px 30px;
+  min-height: 372.38px;
   border-radius: 3px;
   transition: all 0.4s ease;
   border: 1px solid $base-color4;
@@ -55,7 +56,11 @@
     transition: all 0.4s ease;
   }
 
-  .st-iconbox-text {
-    margin-bottom: -6px;
+
+  .st-iconbox-text{
+      margin-top: 16px;
+      margin-bottom: -6px;
+      font-size: 20px;
+      color: $base-color1;
   }
 }

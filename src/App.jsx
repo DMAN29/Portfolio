@@ -35,13 +35,22 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout personDetail={personDetail} />}>
           <Route index element={<Home personDetail={personDetail} />} />
-          <Route path="home-v3" element={<Home3 />} />
-          <Route path="home-v4" element={<Home4 />} />
+          <Route
+            path="home-v3"
+            element={<Home3 personDetail={personDetail} />}
+          />
+          <Route
+            path="home-v4"
+            element={<Home4 personDetail={personDetail} />}
+          />
           <Route path="*" element={<Page404 />} />
           <Route path="blog/blog-details" element={<BlogDetails />} />
         </Route>
-        <Route path="/home-v2" element={<Layout2 />}>
-          <Route index element={<Home2 />} />
+        <Route
+          path="/home-v2"
+          element={<Layout2 personDetail={personDetail} />}
+        >
+          <Route index element={<Home2 personDetail={personDetail} />} />
         </Route>
       </Routes>
     </BrowserRouter>

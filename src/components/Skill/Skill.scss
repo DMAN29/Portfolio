@@ -8,23 +8,8 @@
 
 
 .st-progressbar-wrap {
-  max-height: 300px;
-  overflow-y: auto;
-
-  ::-webkit-scrollbar {
-    width: 5px; 
-  }
-  ::-webkit-scrollbar-track {
-    background: #333;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #666;
-  }
-
-  scrollbar-width: thin; 
-  scrollbar-color: #666 #333; 
+  overflow: hidden;
 }
-
 
 .st-progressbar-heading {
 display: flex;
